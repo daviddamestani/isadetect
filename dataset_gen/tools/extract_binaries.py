@@ -49,7 +49,9 @@ sanity_check = {
     "sh4": {"endianness": "little", "wordsize": 32},
     "sparc": {"endianness": "big", "wordsize": 32},
     "sparc64": {"endianness": "big", "wordsize": 64},
-    "x32": {"endianness": "little", "wordsize": 32}
+    "x32": {"endianness": "little", "wordsize": 32},
+    "xtensael": {"endianness": "little", "wordsize": 32},
+    "xtensa": {"endianness": "big", "wordsize": 32},
 }
 
 class BinaryExtractor():

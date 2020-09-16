@@ -45,18 +45,20 @@ class FeatureCalculator():
             "sparc": 21,
             "sparc64": 22,
             "x32": 23,
+            "xtensael": 24,
+            "xtensa": 25,
             # Wishlist:
-            "avr": 24,
-            "cuda": 25,
-            "arc": 26,
-            "c6x": 27,
-            "h8300": 28,
-            "hppa64": 29,
-            "microblaze": 30,
-            "nios2": 31,
-            "sh2": 32,
-            "riscv32": 33,
-            "xtensa": 34,
+            "avr": 26,
+            "cuda": 27,
+            "arc": 28,
+            "c6x": 29,
+            "h8300": 30,
+            "hppa64": 31,
+            "microblaze": 32,
+            "nios2": 33,
+            "sh2": 34,
+            "riscv32": 35,
+
             "unknown": UNKNOWN_ARCHITECTURE
         }
 

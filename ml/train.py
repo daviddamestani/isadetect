@@ -47,7 +47,7 @@ if __name__ == "__main__":
             if args.classifier == "random_forest":
                 final_model = RandomForestClassifier(n_estimators=100, max_depth=32, random_state=0, n_jobs=-1, verbose=True)
             elif args.classifier == "logistic_regression_keras":
-                classes = 24
+                classes = 26
                 final_model = Sequential()
                 final_model.add(Dense(classes, activation='softmax', kernel_regularizer=regularizers.l1(0.0000001), input_shape=(293,)))
                 final_model.compile(optimizer=optimizers.adam(lr=0.01),
